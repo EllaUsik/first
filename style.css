@@ -1,0 +1,12 @@
+.header{
+  width: 1024px;
+  height: 97px;
+  background-color: #373c3f;
+}
+.header ul>li{
+  display: inline-block;
+  margin-right: 5px;
+}
+ a {
+   text-decoration:none;
+ }
