@@ -1,6 +1,10 @@
+body{
+  margin: 0;
+}
 .wrapper{
   width: 1024px;
   font-family: sans-serif;
+  font-style: normal;
   margin-left: auto;
   margin-right: auto;
 
@@ -9,6 +13,10 @@
   height: 97px;
   background-color: #373c3f;
 
+}
+
+.header ul{
+  margin: 0;
 }
 
 
@@ -45,33 +53,148 @@
   margin-left: 29px;
 }
 
-h1{
-  height: 33px;
+.title1{
   color: white;
+  margin: 0;
+  padding-top: 200px;
+  padding-left: 82px;
+  font-size: 60px;
+  width: 725px;
+}
+h1{
+  margin: 0;
+}
+h2{
+  margin: 0;
+}
+.lnk1{
+  padding-left: 82px;
+  padding-top: 66px;
+  padding-bottom: 0;
+  padding-right: 326px;
+  float: left;
+}
+.lnk2{
+  margin: 0;
+  padding-top: 66px;
 }
 .bl1{
   background-color: #16b1c4;
   height: 576px;
+  width: 1024px;
 }
 
 .bl2{
   background-color: #27212c;
   height: 244px;
   width: 795px;
+  margin: 0;
+  float: left;
 }
 .bl2 h2{
   color: #9a89a8;
   padding-left: 88px;
   padding-top: 115px;
+
 }
 
 .bl3 {
   background-color: #bc3183;
   height: 244px;
   width: 229px;
+  margin: 0;
+  float: right;
 }
 .bl3 h1{
   padding-left: 100px;
   padding-bottom: 108px;
   padding-top: 98px;
+}
+.bigbl{
+  margin-top: 244px;
+  padding: 0;
+
+}
+.bl4{
+  margin: 0;
+  padding: 0;
+  height: 290px;
+  width: 341px;
+  background-color: #5b0fa1;
+  float: left;
+}
+
+.lnk3{
+  margin: 0;
+  padding-top: 120px;
+  padding-left: 158px;
+  color: white;
+}
+.bl5{
+  margin: 0;
+  padding: 0;
+  height: 290px;
+  width: 282px;
+
+}
+ .bl6{
+   margin: 0;
+   padding: 0;
+   float: right;
+   height: 290px;
+
+ }
+
+.bl7 {
+  margin: 0;
+  padding: 0;
+  background-color: #ebebeb;
+  height: 581px;
+}
+
+.title2 {
+  color: #088ca5;
+  margin: 0;
+  padding-top: 54px;
+  padding-left: 80px;
+}
+
+
+.colom1 {
+  float: left;
+  width: 403px;
+  margin: 0;
+  list-style-type: none;
+  padding-top: 30px;
+  padding-left: 82px;
+  padding-right: 0;
+}
+
+  .colom1>li>ul {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 44px;
+  margin-right: 0;
+  font-size: 14px;
+  width: 403px;
+}
+
+
+
+.colom2 {
+  float: right;
+  width: 403px;
+  margin: 0;
+  list-style-type: none;
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 75px;
+}
+
+.colom2>li>ul {
+padding: 0;
+margin-top: 0;
+margin-bottom: 44px;
+font-size: 14px;
+width: 403px;
 }
