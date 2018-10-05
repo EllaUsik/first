@@ -61,7 +61,7 @@ h1, h2{
   font-weight: normal;
 }
 
-.mainlink{
+.main-link{
   padding-left: 82px;
   padding-top: 66px;
   padding-bottom: 0;
@@ -78,65 +78,75 @@ h1, h2{
 
 }
 
-.mainlink:hover, .title:hover, .link:hover{
+.main-link:hover, .title:hover, .link:hover{
   opacity: .6;
 }
 
 
-.bl2{
+.pdf-links-title{
   background-color: #27212c;
   height: 244px;
   width: 795px;
   margin: 0;
   float: left;
 }
-.bl2 h2{
+.pdf-links-title h2{
   color: #9a89a8;
   padding-left: 88px;
   padding-top: 115px;
 
 }
 
-.bl3 {
+.pdf-links-link {
   background-color: #bc3183;
   height: 244px;
   width: 229px;
   margin: 0;
   float: right;
 }
-.bl3 h1{
+
+.pdf-links-link h1{
   padding-left: 100px;
   padding-bottom: 108px;
   padding-top: 98px;
 }
-.bigbl{
+.pdf-links-link:hover{
+  background-color: #bf5895;
+}
+
+.big-block{
   margin-top: 244px;
   padding: 0;
+  height: 291px;
 
 }
-.bl4{
+.pdf-album-link{
   margin: 0;
   padding: 0;
   height: 290px;
-  width: 341px;
+  width: 352px;
   background-color: #5b0fa1;
   float: left;
 }
 
-.lnk3{
+.album-link{
   margin: 0;
   padding-top: 120px;
   padding-left: 158px;
   color: white;
 }
-.bl5{
+
+.pdf-album-link:hover{
+  background-color: #703f9e;
+}
+
+.album-bridge{
   margin: 0;
   padding: 0;
   height: 290px;
-  width: 282px;
 
 }
- .bl6{
+ .album-face{
    margin: 0;
    padding: 0;
    float: right;
@@ -151,7 +161,7 @@ h1, h2{
   height: 581px;
 }
 
-.paddingtitl {
+.padding-titl {
   color: #088ca5;
   margin: 0;
   padding-top: 54px;
@@ -159,42 +169,24 @@ h1, h2{
 }
 
 
-.colom1 {
-  float: left;
-  width: 403px;
+  .padding-text ul{
   margin: 0;
-  padding-top: 30px;
-  padding-left: 82px;
-  padding-right: 0;
+  padding-top: 65px;
+  padding-left: 80px;
+
 }
 
-  .colom1>ul>li {
+  .padding-text li {
   padding: 0;
+  padding-left: 52;
   margin-top: 0;
   margin-bottom: 44px;
-  margin-right: 0;
+  margin-right: 52px;
   font-size: 14px;
   width: 403px;
   list-style-type: none;
+  display: inline-block;
 }
-
-
-
-.colom2 {
-  float: right;
-  width: 403px;
-  margin: 0;
-  list-style-type: none;
-  padding-top: 30px;
-  padding-left: 50px;
-  padding-right: 75px;
-}
-
-.colom2>ul>li {
-padding: 0;
-margin-top: 0;
-margin-bottom: 44px;
-font-size: 14px;
-width: 403px;
-list-style-type: none;
+.padding-text li:hover{
+  text-decoration: none;
 }
