@@ -1,54 +1,51 @@
-body{
+body {
   margin: 0;
 }
-.wrapper{
+
+.wrapper {
   width: 1024px;
   font-family: sans-serif;
   font-style: normal;
   margin-left: auto;
   margin-right: auto;
-
 }
+
 a {
   text-decoration:none;
-
 }
-.header{
+
+.header {
   height: 97px;
   background-color: #373c3f;
-
 }
 
-.navigation{
+.navigation {
   margin: 0;
 }
 
-
-.navigation li{
+.navigation li {
   display: inline-block;
   height: 10px;
   margin-top: 45px;
   margin-bottom: 40px;
   margin-left: 29px;
-
 }
 
-
-.navigation li:first-child{
+.navigation li:first-child {
   margin-left: 44px;
 }
 
-li:hover{
+li:hover {
   text-decoration: underline;
 }
 
-.main{
+.main {
   background-color: #16b1c4;
   height: 576px;
   width: 1024px;
 }
 
-.title{
+.title {
   color: white;
   margin: 0;
   padding-top: 200px;
@@ -56,45 +53,42 @@ li:hover{
   font-size: 60px;
   width: 725px;
 }
-h1, h2{
+
+h1, h2 {
   margin: 0;
   font-weight: normal;
 }
 
-.main-link{
-  padding-left: 82px;
-  padding-top: 66px;
-  padding-bottom: 0;
-  padding-right: 326px;
+.main-link {
+  padding: 66px 326px 0 82px;
   float: left;
   color: #a6d6df;
 }
-.link{
+
+.link {
   margin: 0;
   padding-top: 66px;
   padding-right: 240px;
   width: 100px;
   float: right;
-
 }
 
 .main-link:hover, .title:hover, .link:hover{
   opacity: .6;
 }
 
-
-.pdf-links-title{
+.pdf-links-title {
   background-color: #27212c;
   height: 244px;
   width: 795px;
   margin: 0;
   float: left;
 }
-.pdf-links-title h2{
+
+.pdf-links-title h2 {
   color: #9a89a8;
   padding-left: 88px;
   padding-top: 115px;
-
 }
 
 .pdf-links-link {
@@ -105,22 +99,23 @@ h1, h2{
   float: right;
 }
 
-.pdf-links-link h1{
+.pdf-links-link h1 {
   padding-left: 100px;
   padding-bottom: 108px;
   padding-top: 98px;
 }
-.pdf-links-link:hover{
+
+.pdf-links-link:hover {
   background-color: #bf5895;
 }
 
-.big-block{
+.big-block {
   margin-top: 244px;
   padding: 0;
   height: 291px;
-
 }
-.pdf-album-link{
+
+.pdf-album-link {
   margin: 0;
   padding: 0;
   height: 290px;
@@ -129,64 +124,61 @@ h1, h2{
   float: left;
 }
 
-.album-link{
+.album-link {
   margin: 0;
   padding-top: 120px;
   padding-left: 158px;
   color: white;
 }
 
-.pdf-album-link:hover{
+.pdf-album-link:hover {
   background-color: #703f9e;
 }
 
-.album-bridge{
+.album-bridge {
   margin: 0;
   padding: 0;
   height: 290.3px;
-
 }
- .album-face{
+
+ .album-face {
    margin: 0;
    padding: 0;
    float: right;
    height: 290px;
-
  }
 
 .padding {
   margin: 0;
   padding: 0;
   background-color: #ebebeb;
-  height: 581px;
+  padding-top: 54px;
+  padding-left: 80px;
+  padding-bottom: 100px;
 }
 
 .padding-titl {
   color: #088ca5;
   margin: 0;
-  padding-top: 54px;
-  padding-left: 80px;
 }
 
-
-  .padding-text ul{
+  .padding-text ul {
   margin: 0;
-  padding-top: 65px;
-  padding-left: 80px;
-
+  padding-top: 54px;
+  padding-left: 0;
 }
 
   .padding-text li {
   padding: 0;
-  padding-left: 52;
+  padding-right: 55px;
   margin-top: 0;
   margin-bottom: 44px;
-  margin-right: 52px;
   font-size: 14px;
   width: 403px;
   list-style-type: none;
   display: inline-block;
 }
-.padding-text li:hover{
+
+.padding-text li:hover {
   text-decoration: none;
 }
